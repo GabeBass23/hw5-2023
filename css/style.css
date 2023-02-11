@@ -112,14 +112,14 @@ nav li:hover, nav li:focus{
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
 .skip {
-  position:fixed;
+  position:absolute;
   top: -40px;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip:focus {
-  position:relative;
-  bottom: 20px;
+  position:absolute;
+  top: 20px;
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
